@@ -562,7 +562,7 @@ func (p *DecLiteral) rvalue(a *asm.Assembler) {
 	i := big.NewInt(0)
 	_, success := i.SetString(p.lit, 10)
 	if !success {
-		p.Err("failed to parse decimal literal")
+		p.Err("failed to parser decimal literal")
 	} else if i.Cmp(maxUint256) >= 0 {
 		p.Err("decimal literal too large")
 	} else if i.Cmp(big.NewInt(0)) < 0 {

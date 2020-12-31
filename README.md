@@ -1,6 +1,6 @@
 # Smart: An Experimental Ethereum Smart Contract Language
 
-**STATUS:** This was a short-term experiment and is currently not being developed/maintained. Many parts of the code are unfinished.
+**STATUS:** Origin from Consensys, I develop it in leisure time.
 
 Smart is an experiment in designing a new smart contract language for Ethereum. You can read about the language design and motivation [on the ConsenSys Diligence blog](https://diligence.consensys.net/blog/2020/05/an-experiment-in-designing-a-new-smart-contract-language/).
 
